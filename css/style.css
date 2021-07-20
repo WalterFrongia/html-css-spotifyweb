@@ -30,27 +30,39 @@ body{
 }
 
 @media screen and (min-width: 992px) {
-    .nav-container{
-        height:calc(100vh - 80px);
+
+    .container{
+        height:calc(100vh - 50px);
+        width: 100%;
+        background-color:blue;
+    }
+    .lateral-bar{
         width:18%;
-        background-color: rgb(5, 5, 5);
+        height:calc(100vh - 50px);
+        background-color: black;
     }
 
-    .main-section{
-        height:calc(100vh - 80px);
+    .center-section{
+        height:calc(100vh - 50px);
         width:82%;
-        background-color: rgb(0, 6, 34);
+        background-color: rgb(2, 4, 15);
     }
+
     .top-bar-button{
-        height: 80px;
-        width:100%;
-        background-color: rgb(73, 73, 73);
+        height: 50px;
+        background-color: rgb(46, 43, 43);
+        position:relative;
+    }
+
+    .top-bar-button button{
+        position:absolute;
+        right:10px;
+        top:15px;
     }
 
     .footer-container{
-        height: 80px;
-        width:100%;
-        background-color: rgb(49, 49, 49);
-        overflow: auto;
+        height: 50px;
+        width: 100%;
+        background-color: rgb(49, 48, 48);
     }
 }
