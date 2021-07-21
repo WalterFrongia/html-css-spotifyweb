@@ -54,6 +54,11 @@ body{
         color:white;
     }
 
+    .lateral-bar h3{
+        color:white;
+        font-size: 20px;
+    }
+
     .logo{
         height: 50px;
         background-image: url(../img/logo.svg);
@@ -64,7 +69,8 @@ body{
     }
 
     .resource{
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 
     .playlist{
@@ -76,7 +82,7 @@ body{
     }
 
     .footer-nav{
-        height: 220px;
+        height: 200px;
         flex-direction: column;
         justify-content: flex-end;
     }
@@ -104,12 +110,22 @@ body{
         height: 55px;
         background-color: rgb(46, 43, 43);
         position:relative;
+        margin-bottom: 10px;
     }
 
     .top-bar-button button{
         position:absolute;
         right:10px;
         top:15px;
+    }
+
+    .nav-bar-center-section>ul{
+       text-align: center;
+    }
+
+    .nav-bar-center-section li{
+        display: inline-block;
+        margin-right: 10px;
     }
 
     /*FOOTER*/
