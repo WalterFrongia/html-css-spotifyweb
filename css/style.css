@@ -36,12 +36,30 @@ body{
         width: 100%;
         background-color:blue;
     }
+    /*LATERAL BAR NAV*/
     .lateral-bar{
         width:18%;
         height:calc(100vh - 50px);
-        background-color: black;
+        background-color: rgb(151, 151, 151);
+        padding:5px;
     }
 
+    .logo{
+        height: 50px;
+        background-image: url(../img/logo.svg);
+        background-size:contain;
+        background-repeat: no-repeat;
+        margin-bottom: 10px;
+
+    }
+
+    .playlist{
+        height: 300px;
+        border:1px solid red;
+        flex-direction: column;
+    }
+
+    /*CENTER MAIN SECTION*/
     .center-section{
         height:calc(100vh - 50px);
         width:82%;
@@ -49,7 +67,7 @@ body{
     }
 
     .top-bar-button{
-        height: 50px;
+        height: 55px;
         background-color: rgb(46, 43, 43);
         position:relative;
     }
@@ -60,6 +78,7 @@ body{
         top:15px;
     }
 
+    /*FOOTER*/
     .footer-container{
         height: 50px;
         width: 100%;
