@@ -244,9 +244,8 @@ body{
     margin-right: 10px;
 }
 
-.content-box:hover img{
-    border:1px solid red;
-}
+/*.content-box:hover img{
+}*/
 
 .content-box img{
     height: 75%;
