@@ -35,6 +35,7 @@ body{
         height:calc(100vh - 100px);
         width: 100%;
     }
+
     /*LATERAL BAR NAV*/
     .lateral-bar{
         width:300px;
@@ -186,7 +187,7 @@ body{
     }
 
     .content-box img{
-        height: 150px;
+        height: 75%;
     }
 
     .description-song{
@@ -217,9 +218,10 @@ body{
     }
 
     /*FOOTER*/
-    .footer-container{
+    .music-bar{
         height: 100px;
         width: 100%;
         background-color: rgb(49, 48, 48);
+        border:1px solid red;
     }
 }
