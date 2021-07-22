@@ -123,6 +123,25 @@ body{
     color: white;
 }
 
+.footer-nav p:first-child{
+    font-size:10px;
+    font-weight: 600;
+    color:grey;
+}
+
+.footer-nav p:nth-last-of-type(1){
+    font-size:15px;
+    font-weight: 600;
+}
+
+#download-install{
+    font-size: 10px;
+}
+
+#icon-account{
+    color:rgb(175, 175, 175);
+}
+
 .bar{
     width: 90%;
     height: 1px;
