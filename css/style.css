@@ -81,6 +81,8 @@ body{
 
     .container-logo{
         height: 80px;
+        align-items: center;
+        margin-bottom: 10px;
     }
 
     .container-logo>img{
