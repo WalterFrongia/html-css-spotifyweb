@@ -81,11 +81,10 @@ body{
 
     .container-logo{
         height: 80px;
-        margin-bottom: 20px;
     }
 
     .container-logo>img{
-        height: 80%;
+        height: 70%;
     }
 
     .resource{
