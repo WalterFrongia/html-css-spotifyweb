@@ -68,6 +68,10 @@ body{
     color:rgb(128, 128, 128);
 }
 
+.lateral-bar a:hover{
+    color:white;
+}
+
 .lateral-bar a{
     text-decoration:none;
     color:rgb(128, 128, 128);
@@ -83,6 +87,12 @@ body{
     height: 80px;
     align-items: center;
     margin-bottom: 10px;
+}
+
+.container-logo-smathphone{
+    height:80px;
+    display: none;
+
 }
 
 .container-logo>img{
@@ -185,6 +195,11 @@ body{
     font-weight: 600;
 }
 
+/*hover bottone top bar main section*/
+.top-bar-button button:hover{
+    padding:12px 42px;
+}
+
 /*barra di navigazione in center section*/
 .nav-bar-center-section>ul{
    text-align: center;
@@ -202,7 +217,7 @@ body{
 
 .nav-bar-center-section a:hover{
     color:white;
-    border-bottom:3px solid rgb(112, 236, 112);
+    border-bottom:2px solid rgb(112, 236, 112);
 }
 
 /*contenitore tutti i video*/
@@ -383,4 +398,37 @@ body{
     width:100px;
     border-radius:20px;
     background-color:rgb(108, 110, 108);
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+
+}
+
+@media screen and (min-width:420px) and (max-width:768px){
+    #nav-lateral{
+        width:50px;
+    }
+
+    #main-section{
+        height:calc(100vh - 100px);
+        width:calc(100% - 50px)
+    }
+
+    .container-logo{
+        display: none;
+    }
+
+    .container-logo-smathphone{
+        height:10px;
+        width:10px;
+        display: inline-block;
+    }
+
+    .resource{
+        display: none;
+    }
+
+    .playlist{
+        display: none;
+    }
 }
