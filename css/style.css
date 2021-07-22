@@ -56,7 +56,7 @@ body{
         height:calc(100vh - 100px);
         background-color: rgb(0, 0, 0);
         padding:5px 0 0 15px;
-        overflow: auto;
+        flex-direction: column;
     }
 
     .lateral-bar li{
@@ -91,10 +91,23 @@ body{
     .resource{
         margin-bottom: 20px;
         line-height: 25px;
+        flex-grow: 1;
     }
 
     .playlist{
-        flex-direction: column;
+       flex-grow: 4;
+    }
+
+    .playlist i{
+        font-size: 40px;
+        padding-right: 5px;
+        vertical-align: middle;
+    }
+
+    .playlist span{
+        font-size: 18px;
+        font-weight: 600;
+        color:rgb(128, 128, 128);
     }
 
     .playlist li{
@@ -103,8 +116,7 @@ body{
 
     .footer-nav{
         height: 180px;
-        flex-direction: column;
-        justify-content: flex-end;
+        flex-grow:1;
     }
 
     .footer-nav p{
@@ -138,7 +150,7 @@ body{
 
     /*top bar in center section per il bottone upgrade*/
     .top-bar-button{
-        height: 100px;
+        height: 80px;
         background-color: rgba(0, 0, 0, 0.3);
         justify-content: flex-end;
         align-items: center;
