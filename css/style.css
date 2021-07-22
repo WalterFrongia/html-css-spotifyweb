@@ -93,12 +93,13 @@ body{
     }
 
     .footer-nav p{
+        font-size: 10px;
         color: white;
     }
 
     .bar{
         width: 90%;
-        height: 2px;
+        height: 1px;
         background-color: grey;
         border-radius: 10px;
         margin:5px 0;
