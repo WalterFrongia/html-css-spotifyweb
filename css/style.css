@@ -91,12 +91,11 @@ body{
 
     .resource{
         margin-bottom: 20px;
-        line-height: 25px;
-        flex-grow: 1;
+        line-height: 30px;
     }
 
     .playlist{
-       flex-grow: 4;
+       flex-grow:2;
     }
 
     .playlist i{
@@ -116,8 +115,6 @@ body{
     }
 
     .footer-nav{
-        height: 180px;
-        flex-grow:1;
     }
 
     .footer-nav p{
