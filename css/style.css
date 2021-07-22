@@ -6,7 +6,7 @@
 }
 
 /*UTILIZZO FLOAT*/
-.clearfix{
+.clearfix::after{
     content: "";
     clear: both;
     display: table;
@@ -27,6 +27,20 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+}
+
+#nav-lateral{
+    width:300px;
+}
+
+#main-section{
+    height:calc(100vh - 100px);
+    width:calc(100% - 300px)
+}
+
+#footer-bar{
+    height: 100px;
+    width:100%;
 }
 
 @media screen and (min-width: 992px) {
@@ -109,11 +123,10 @@ body{
     /*CENTER MAIN SECTION*/
 
     /*structure center section*/
-    .center-section{
+    .main-content-section{
         height:calc(100vh - 100px);
-        width:calc(100% - 300px);
         background-color: rgb(18, 24, 34);
-        overflow: auto;
+        overflow-y:auto;
     }
 
     .text-grey{
